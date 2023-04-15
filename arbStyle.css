@@ -1,0 +1,26 @@
+#myTr0{
+  
+    border: 2px solid blue;
+}
+#myTr1{
+  
+    border: 2px solid blue;
+}
+#myTr2{
+  
+    border: 2px solid blue;
+}
+#myTr3{
+  
+    border: 2px solid blue;
+}
+#myTable{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+table, td {
+    border: 1px solid black;
+    background-color: rgb(96, 215, 236);
+    text-align: center;
+ }

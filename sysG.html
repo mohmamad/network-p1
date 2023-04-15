@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="sysGstyle.css">
+        <link rel="stylesheet" href="mainStyle.css">
+    </head>
+
+<body style = "width: 100%; margin: auto;">
+    <header>
+        <div>
+            <h1 class = "title">System Group</h1>
+        </div>
+    </header>
+   
+    <button  type="button" style="margin-left: 3px; background-color: rgb(96, 215, 236);
+    color: black;
+    cursor: pointer;
+    " onclick="window.location.href='http://localhost/mysite/mainPage.html';"> Back to Main </button>
+
+    <div style="width: 800px; margin: auto;">
+        <div >
+            <p id="sysDh" class="txt" >hi</p>
+        </div>
+
+        <div class="sysD">
+            <p id="sysDs" class="txt">hi</p>
+        </div>
+
+        <div class="sysO">
+            <p id="sysO" class="txt">hi</p>
+        </div>
+
+        <div class="sysT">
+            <p id="sysT" class="txt">hi</p>
+        </div>
+
+        <div class="sysC">
+            <p id="sysC" class="txt">hi</p>
+        </div>
+        
+        <div class="sysN">
+            <p id="sysN" class="txt">hi</p>
+        </div>
+
+        <div class="sysL">
+            <p id="sysL" class="txt">hi</p>
+        </div>
+
+        <div class="sysS">
+            <p id="sysS" class="txt">hi</p>
+        </div>
+
+        <div>
+            <table style="width:100%">
+                
+                <tr>
+                  <th><input type="text" id="con" name="con"><br><br>
+                    <button class="btnl" id="btnC" onclick="setContact()" type="button">Set Contact</button>
+                </th>
+                  <th><input type="text" id="name" name="name"><br><br>
+                    <button class="btnl" id="btnN" onclick="setName()" type="button">Set Name</button>
+                </th>
+                  <th><input type="text" id="loc" name="loc"><br><br>
+                    <button class="btnl" id="btnL" onclick="setLocation()" type="button">Set Location</button>
+                </th>
+                </tr>
+            
+
+        </div>
+        
+        
+
+    </div>
+</body>
+<script src="get_sys.js"></script>
+</html>

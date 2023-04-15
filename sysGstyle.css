@@ -1,0 +1,18 @@
+.title{
+    background-color: rgb(96, 215, 236);
+    text-align: center;
+    color: white;
+}
+.txt{
+    background-color: rgb(96, 215, 236);
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+.btnl{
+    width: 150px;
+    height: 25px;
+    background-color: lightgreen;
+    color: black;
+    cursor: pointer;
+}
