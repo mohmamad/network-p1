@@ -6,24 +6,18 @@ var soft = "asd"
 function setContact(){
     var data = document.getElementById("con").value;
     set_contact(data)
-    setTimeout(()=>{
-        document.location.reload();
-    },2000)
+    get_API()
 }
 function setName(){
     var data = document.getElementById("name").value;
     set_name(data)
-    setTimeout(()=>{
-        document.location.reload();
-    },2000)
+    get_API()
     
 }
 function setLocation(){
     var data = document.getElementById("loc").value;
     set_location(data)
-    setTimeout(()=>{
-        document.location.reload();
-    },2000)
+    get_API()
 }
 
     const get_API = async()=>{
