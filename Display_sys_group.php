@@ -15,6 +15,7 @@ $as = snmp2_get($ip, "public", ".1.3.6.1.2.1.1.7.0");
 
 $data = array($ad , $ao , $at , $ac , $an , $al , $as);
 
+
 echo json_encode($data);
 // $asd =  "asd";
 // echo $asd;

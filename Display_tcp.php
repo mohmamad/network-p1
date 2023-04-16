@@ -12,6 +12,7 @@ $a4 = snmp2_walk($ip, "public", ".1.3.6.1.2.1.6.13.1.4");
 $a5 = snmp2_walk($ip, "public", ".1.3.6.1.2.1.6.13.1.5");
 
 $data = array($a1 , $a2 , $a3 , $a4 , $a5);
+ 
 
 echo json_encode($data);
 
